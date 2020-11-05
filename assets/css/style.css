@@ -1,0 +1,8 @@
+body {
+    background-image: url('./assets/images/bg.png');
+}
+nav {
+    position: absolute;
+    top: 25%;
+    left 50%;
+}
