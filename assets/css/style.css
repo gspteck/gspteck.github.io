@@ -2,12 +2,14 @@ body {
     background-image: url('./assets/images/bg.png');
     background-color: black;
     color: #f0e942;
+    font-family: 'Arvo', serif;
 }
 a {
     color: #f0e942;
     text-decoration: none;
 }
 nav li {
+    font-family: 'Audiowide', cursive;
     padding-left: 20px;
     font-size: 17px;
     list-style-type: none;
