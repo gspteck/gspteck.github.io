@@ -1,8 +1,27 @@
 body {
     background-image: url('./assets/images/bg.png');
+    background-color: black;
+    color: #f0e942;
 }
-nav {
-    position: absolute;
-    top: 25%;
-    left 50%;
+a {
+    color: #f0e942;
+    text-decoration: none;
+}
+nav li {
+    padding-left: 20px;
+    font-size: 17px;
+    list-style-type: none;
+    display: inline;
+}
+#logo {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+}
+#nav-links {
+    position: fixed;
+    top: 27%;
+    left: 48.1%;
+    transform: translate(-51.9%, -73%);
 }
