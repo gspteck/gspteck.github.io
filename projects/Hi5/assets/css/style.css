@@ -1,0 +1,47 @@
+/* font-family: 'Orbitron', sans-serif;          OVERKILL font
+   font-family: 'Ubuntu', sans-serif;            Normal font   */
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: #848583;
+}
+a {
+    color: #848583;
+    text-decoration: none;
+}
+#logo {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    z-index: 5;
+}
+#nav-links {
+    position: fixed;
+    top: 15%;
+    left: 49.5%;
+    transform: translate(-50.5%, -85%);
+    z-index: 4;
+}
+#nav-links li {
+    padding: 10px;
+    font-size: 12px;
+    list-style-type: none;
+    display: inline;
+}
+#nav-bg {
+    background: white;
+    width: 1500px;
+    height: 105px;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 3;
+}
+#mission {
+    position: absolute;
+    top: 52.1%;
+    left: 50%;
+    transform: translate(-50%, -46.9%);
+}

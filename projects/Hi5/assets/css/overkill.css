@@ -1,0 +1,99 @@
+/* font-family: 'Orbitron', sans-serif;          OVERKILL font
+   font-family: 'Ubuntu', sans-serif;            Normal font   
+   MEGA COLOR: #5cea1b                                         */
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    color: #5cea1b;
+    background: black;
+}
+a {
+    color: #5cea1b;
+    text-decoration: none;
+}
+#logo {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    z-index: 5;
+}
+#logo-glow {
+    position: absolute;
+    top: 9%;
+    left: 50%;
+    transform: translate(-50%, -91%);
+    z-index: 4;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow:
+        0 0 20px 10px #fff,
+        0 0 500px 30px #5cea1b,
+        0 0 100px 50px #7de94b;
+}
+#overkill {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -88%);
+    font-size: 80px;
+}
+#mission {
+    position: absolute;
+    top: 52.1%;
+    left: 50%;
+    transform: translate(-50%, -46.9%);
+}
+#vid-cover {
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -47%);
+}
+#video {
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -47%);
+    z-index: 3;
+}
+#icon1 img {
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    left: 12%;
+    transform: translate(-88%, -60%);
+}
+#icon2 img {
+    border-radius: 50%;
+    position: absolute;
+    top: 70%;
+    left: 82%;
+    transform: translate(-18%, -30%);
+}
+#icon3 img {
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 90%;
+    transform: translate(-20%, -85%);
+}
+#quote {
+    font-size: 20px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    z-index: 2;
+}
+#quote-bg {
+    background: black;
+    height: 60px;
+    width: 500px;
+    position: absolute;
+    top: 55.5%;
+    left: 50%;
+    transform: translate(-50%, -44.5%);
+}
