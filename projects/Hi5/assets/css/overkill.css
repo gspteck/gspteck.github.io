@@ -5,14 +5,20 @@
 body {
     font-family: 'Orbitron', sans-serif;
     color: #5cea1b;
-    background: black;
+    background: url('../images/wallpaper.jpg');
+    height: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
 }
 a {
     color: #5cea1b;
     text-decoration: none;
 }
 #logo {
-    position: fixed;
+    position: absolute;
     top: 10%;
     left: 50%;
     transform: translate(-50%, -90%);
@@ -57,28 +63,34 @@ a {
     top: 53%;
     left: 50%;
     transform: translate(-50%, -47%);
-    z-index: 3;
+    z-index: 4;
 }
 #icon1 img {
     border-radius: 50%;
     position: absolute;
-    top: 40%;
-    left: 12%;
-    transform: translate(-88%, -60%);
+    top: 90%;
+    left: 69.6%;
+    transform: translate(-30.4%, -10%);
 }
 #icon2 img {
     border-radius: 50%;
     position: absolute;
-    top: 70%;
-    left: 82%;
-    transform: translate(-18%, -30%);
+    top: 90%;
+    left: 30.4%;
+    transform: translate(-69.6%, -10%);
 }
-#icon3 img {
-    border-radius: 50%;
+#quote-logo {
     position: absolute;
-    top: 15%;
-    left: 90%;
-    transform: translate(-20%, -85%);
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -47%);    
+}
+#logo-cred {
+    font-size: 5px;
+    position: absolute;
+    top: 80%;
+    left: 57%;
+    transform: translate(-43%, -20%);
 }
 #quote {
     font-size: 20px;
@@ -96,4 +108,92 @@ a {
     top: 55.5%;
     left: 50%;
     transform: translate(-50%, -44.5%);
+}
+/*news ticker*/
+.tcontainer {
+    width: 100%;
+    overflow: hidden;
+}
+.ticker-wrap {
+    width: 100%;
+    padding-left: 100%;
+    background-color: #000000;
+}
+@keyframes ticker {
+    100% {
+        transform: translate3d(-100%, 0, 0);
+    }
+}
+.ticker-move {
+    display: inline-block;
+    white-space: nowrap;
+    padding-right: 100%;
+    animation-timing-function: linear;
+    animation: ticker 80s infinite;
+}
+.ticker-move:hover {
+    animation-play-state: paused;
+}
+.ticker-item {
+    display: inline-block;
+    padding: 0 40px;
+    font-size: 20px;
+}
+/**/
+#system {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%, -13%);
+}
+#system-bg {
+    background: #5cea1b;
+    position: absolute;
+    top: 88.5%;
+    left: 50%;
+    transform: translate(-50%, -11.5%);
+    height: 75px;
+    width: 550px;
+    z-index: -1;
+}
+#block-bg {
+    background: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 110%;
+    z-index: 6;
+}
+#form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 7;
+}
+#profile {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -65%);
+    z-index: 7;
+}
+#login-bt {
+    font-size: 15px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    z-index: 7;
+    border: none;
+    border-radius: 8px;
+    background-color: #5cea1b;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }

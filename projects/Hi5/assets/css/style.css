@@ -29,6 +29,7 @@ a {
     list-style-type: none;
     display: inline;
 }
+
 #nav-bg {
     background: white;
     width: 1500px;
@@ -44,4 +45,46 @@ a {
     top: 52.1%;
     left: 50%;
     transform: translate(-50%, -46.9%);
+    cursor: auto;
+}
+#mission-text {
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    transform: translate(-20%, -30%);
+    font-size: 50px;
+}
+#mission-link {
+    position: absolute;
+    top: 75.5%;
+    left: 91%;
+    transform: translate(-9%, -24.5%);
+    font-size: 45px;
+    cursor: pointer;
+}
+#newsletter {
+    position: absolute;
+    top: 105%;
+    left: 52.5%;
+    transform: translate(-47.5%, 5%);
+    width: 550px;
+}
+#email {
+    width: 350px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #929292;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#submit {
+    width: 150px;
+    background-color: transparent;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
 }

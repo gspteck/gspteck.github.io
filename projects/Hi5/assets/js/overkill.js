@@ -1,8 +1,3 @@
-const tl = gsap.timeline({defaults:{ease: 'power1.out'}});
-
-tl.to('.text', {y:"0%", duration: 1, stagger: 0.25});
-tl.fromTo('nav', {opacity: 0}, {opacity: 1, duration: 1});
-
 //making draggable logo
 dragElement(document.getElementById("logo"));
 function dragElement(elmnt) {
@@ -46,4 +41,10 @@ function load_vid() {
         $("#youtube_video").attr("src","https://youtube.com/embed/"+id + "?controls=0&showinfo=0&rel=0");
         });
     }, 5000);
+}
+
+function remv_login() {
+    var block = document.getElementById('block');
+    block.innerHTML = ' ';
+    load_vid();
 }
