@@ -16,7 +16,7 @@ function remv_login() {
 
     var wrong = document.getElementById('wrong');
 
-    if (username == 'OVERKILL' && password == 'I.L0V3_MVRV£L') {
+    if (username == 'OVERKILL' && password == 'BECAUSE') {
         var block = document.getElementById('block');
         block.innerHTML = ' ';
         load_vid();
