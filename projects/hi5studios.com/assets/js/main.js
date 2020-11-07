@@ -45,3 +45,17 @@ function open_mission() {
   mission_lnk.innerHTML = ' ';
   mission.innerHTML = '<center><img src="./assets/images/pic1.jpg" width="500px"><br><br><h4>' + text + '<br><br>- Matthias</h4></center>';
 }
+
+function log() {
+  const fs = require('fs')
+  const visit = 1;
+  const jsonString = JSON.stringify(visit);
+  
+  fs.writeFile('./visits.json', jsonString, err => {
+    if (err) {
+        console.log('Error writing file', err);
+    } else {
+        console.log('Successfully wrote file');
+    }
+  });
+}
