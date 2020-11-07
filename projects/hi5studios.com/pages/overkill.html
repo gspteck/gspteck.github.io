@@ -8,18 +8,20 @@
     </head>
     <body>
         <div id="block">
-            <div id="profile"><img src="../assets/images/channels/icons/matthias.jpg" alt="Avatar" width="75px" style="border-radius: 50%; positio"></div>
+            <div id="profile"><img src="../assets/images/channels/icons/matthias.jpg" alt="Avatar" width="75px" style="border-radius: 50%"></div>
             <div id="form">
                 <form>
-                    <textarea name="username" id="username" cols="30" rows="1" style="background: #5cea1b; border: none;">OVERKILL</textarea>
-                    <textarea name="username" id="username" cols="30" rows="1" style="background: #5cea1b; border: none;">Insert Password Here</textarea>
+                    <input id="name" name="name" placeholder="Username" style="background: #5cea1b; border: none; border-radius: 5%;font-size: 20px;">
+                    <input id="passw" name="passw" placeholder="Password" style="background: #5cea1b; border: none; border-radius: 5%;font-size: 20px;">              
                 </form>
             </div>
             <button id="login-bt" onclick="remv_login()">Log In</button>
             <div id="block-bg"></div>
         </div>
 
-
+        
+        <br>
+        <button id="mega-bg" onclick="mega_bg()">MEGA BG</button>
         <div id="logo"><a href="../index.html"><img src="../assets/images/logo_overkill.png" width="55px"></a></div>
         <div id="logo-glow"></div>
         <h1 id="overkill">O V E R K I L L</h1>
@@ -41,7 +43,7 @@
                     <div class="ticker-item">CarCode: 155</div>
                     <div class="ticker-item">CarVim: Unknown</div>
                     <div class="ticker-item">Weapon: Syringe Gun</div>
-                    <div class="ticker-item">LiquidType: Chemical - Attention:Extremely Flamable and Corrosive</div>
+                    <div class="ticker-item">LiquidType: Chemical - Attention: Extremely Flamable and Corrosive</div>
                     <div class="ticker-item">UpdateLog: 311/2020</div>
                 </div>
             </div>
@@ -49,9 +51,10 @@
         <div id="system"><h1>MEGADESK SYSTEM</h1></div>
         <div id="system-bg"></div>
 
+
         <iframe src="../pages/notepad.html" width="300px" height="500px" scrolling="no" style="border: none; position: absolute; top: 51%; left: 19%; transform: translate(-81%, -49%);"></iframe>
         <iframe src="../pages/terminal.html" width="300px" height="500px" scrolling="no" style="border: none; position: absolute; top: 51%; left: 81%; transform: translate(-19%, -49%);"></iframe>
-
+        
         <script src="../assets/js/overkill.js"></script>        
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
