@@ -7,7 +7,7 @@ function load_vid() {
         var id = link.substr(link.indexOf("=")+1);
         $("#youtube_video").attr("src","https://youtube.com/embed/"+id + "?controls=0&showinfo=0&rel=0");
         });
-    }, 5000);
+    }, 10000);
 }
 
 function remv_login() {
