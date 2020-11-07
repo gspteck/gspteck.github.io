@@ -24,12 +24,11 @@ a {
     z-index: 4;
 }
 #nav-links li {
-    padding: 10px;
+    padding: 5px;
     font-size: 12px;
     list-style-type: none;
     display: inline;
 }
-
 #nav-bg {
     background: white;
     width: 1500px;
@@ -53,6 +52,7 @@ a {
     left: 80%;
     transform: translate(-20%, -30%);
     font-size: 50px;
+    cursor: pointer;
 }
 #mission-link {
     position: absolute;
@@ -65,9 +65,10 @@ a {
 #newsletter {
     position: absolute;
     top: 105%;
-    left: 52.5%;
-    transform: translate(-47.5%, 5%);
+    left: 50%;
+    transform: translate(-50%, 5%);
     width: 550px;
+    padding-left: 45px;
 }
 #email {
     width: 350px;
@@ -87,4 +88,70 @@ a {
     border: 1px solid black;
     border-radius: 4px;
     cursor: pointer;
+}
+
+
+
+
+
+/*----------------------------About.html--------------------------------------*/
+#image {
+    width: 800px;
+    position: absolute;
+    top: 53%;
+    left: -48%;
+    transform: translate(52%, -48%);
+}
+#text {
+    font-size: 15px;
+    width: 750px;
+    position: absolute;
+    top: 53%;
+    left: 64%;
+    transform: translate(-36%, -47%);
+    text-align: center;
+}
+
+
+
+
+
+/*----------------------------Channels.html------------------------------------*/
+.channel {
+    width: 700px;
+    height: 150px;
+    position: relative;
+}
+.profile {
+    border-radius: 50%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 110px;
+}
+.name {
+    position: absolute;
+    top: 10%;
+    left: 42.5%;
+    transform: translate(-57.5%, -90%);
+}
+.sub {
+    background: #cf0101;
+    color: white;
+    border: none;
+    position: absolute;
+    top: 21%;
+    left: 71%;
+    transform: translate(-29%, -79%);
+    font-size: 17px;
+    padding: 10px;
+    cursor: pointer;
+}
+.description {
+    position: absolute;
+    top: 43%;
+    left: 58%;
+    transform: translate(-42%, -57%);
+    width: 600px;
+    text-align: left;
 }

@@ -11,9 +11,21 @@ function load_vid() {
 }
 
 function remv_login() {
-    var block = document.getElementById('block');
-    block.innerHTML = ' ';
-    load_vid();
+    var username = document.getElementById('name').value;
+    var password = document.getElementById('passw').value;
+
+    var wrong = document.getElementById('wrong');
+
+    if (username == 'OVERKILL' && password == 'I.L0V3_MVRV£L') {
+        var block = document.getElementById('block');
+        block.innerHTML = ' ';
+        load_vid();
+    }
+    else {
+        var audio = new Audio('../assets/audio/nope.mp3');
+        audio.volume = 0.05;
+        audio.play();
+    }    
 }
 
 function mega_bg() {
