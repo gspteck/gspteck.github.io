@@ -47,8 +47,16 @@ function open_mission() {
 }
 
 function log() {
+  fs.readFile('./visits.json', 'utf8', (err, jsonString) => {
+    if (err) {
+        console.log("File read failed:", err);
+        return
+    }
+    const visit = ('File data:', jsonString);
+    return visit;
+  });
+
   const fs = require('fs')
-  const visit = 1;
   const jsonString = JSON.stringify(visit);
   
   fs.writeFile('./visits.json', jsonString, err => {
