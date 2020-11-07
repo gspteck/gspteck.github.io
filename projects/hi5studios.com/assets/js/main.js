@@ -45,25 +45,3 @@ function open_mission() {
   mission_lnk.innerHTML = ' ';
   mission.innerHTML = '<center><img src="./assets/images/pic1.jpg" width="500px"><br><br><h4>' + text + '<br><br>- Matthias</h4></center>';
 }
-
-function log() {
-  fs.readFile('./visits.json', 'utf8', (err, jsonString) => {
-    if (err) {
-        console.log("File read failed:", err);
-        return
-    }
-    const visit = ('File data:', jsonString);
-    return visit;
-  });
-
-  const fs = require('fs')
-  const jsonString = JSON.stringify(visit);
-  
-  fs.writeFile('./visits.json', jsonString, err => {
-    if (err) {
-        console.log('Error writing file', err);
-    } else {
-        console.log('Successfully wrote file');
-    }
-  });
-}
