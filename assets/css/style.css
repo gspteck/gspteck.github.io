@@ -16,14 +16,32 @@ nav li {
     display: inline;
 }
 #logo {
-    position: fixed;
+    position: absolute;
     top: 20%;
     left: 50%;
     transform: translate(-50%, -80%);
 }
 #nav-links {
-    position: fixed;
+    position: absolute;
     top: 27%;
     left: 48.1%;
     transform: translate(-51.9%, -73%);
+}
+
+#ads {
+    width: 300px;
+    height: 1500px;
+    position: absolute;
+    top: 40%;
+    left: 75%;
+}
+.product {
+    width: 300px;
+}
+#vert_line {
+    border-left: 3px solid #f0e942;
+    height: 1850px;
+    position: absolute;
+    top: 40%;
+    left: 73%;
 }
