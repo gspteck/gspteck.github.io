@@ -1,0 +1,157 @@
+/* font-family: 'Orbitron', sans-serif;          OVERKILL font
+   font-family: 'Ubuntu', sans-serif;            Normal font   */
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: #848583;
+}
+a {
+    color: #848583;
+    text-decoration: none;
+}
+#logo {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    z-index: 5;
+}
+#nav-links {
+    position: fixed;
+    top: 15%;
+    left: 49.5%;
+    transform: translate(-50.5%, -85%);
+    z-index: 4;
+}
+#nav-links li {
+    padding: 5px;
+    font-size: 12px;
+    list-style-type: none;
+    display: inline;
+}
+#nav-bg {
+    background: white;
+    width: 1500px;
+    height: 105px;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 3;
+}
+#mission {
+    position: absolute;
+    top: 52.1%;
+    left: 50%;
+    transform: translate(-50%, -46.9%);
+    cursor: auto;
+}
+#mission-text {
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    transform: translate(-20%, -30%);
+    font-size: 50px;
+    cursor: pointer;
+}
+#mission-link {
+    position: absolute;
+    top: 75.5%;
+    left: 91%;
+    transform: translate(-9%, -24.5%);
+    font-size: 45px;
+    cursor: pointer;
+}
+#newsletter {
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    transform: translate(-50%, 5%);
+    width: 550px;
+    padding-left: 45px;
+}
+#email {
+    width: 350px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #929292;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#submit {
+    width: 150px;
+    background-color: transparent;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+
+
+/*----------------------------About.html--------------------------------------*/
+#image {
+    width: 800px;
+    position: absolute;
+    top: 53%;
+    left: -48%;
+    transform: translate(52%, -48%);
+}
+#text {
+    font-size: 15px;
+    width: 750px;
+    position: absolute;
+    top: 53%;
+    left: 64%;
+    transform: translate(-36%, -47%);
+    text-align: center;
+}
+
+
+
+
+
+/*----------------------------Channels.html------------------------------------*/
+.channel {
+    width: 700px;
+    height: 150px;
+    position: relative;
+}
+.profile {
+    border-radius: 50%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 110px;
+}
+.name {
+    position: absolute;
+    top: 10%;
+    left: 42.5%;
+    transform: translate(-57.5%, -90%);
+}
+.sub {
+    background: #cf0101;
+    color: white;
+    border: none;
+    position: absolute;
+    top: 21%;
+    left: 71%;
+    transform: translate(-29%, -79%);
+    font-size: 17px;
+    padding: 10px;
+    cursor: pointer;
+}
+.description {
+    position: absolute;
+    top: 43%;
+    left: 58%;
+    transform: translate(-42%, -57%);
+    width: 600px;
+    text-align: left;
+}
