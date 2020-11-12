@@ -44,13 +44,13 @@ nav li {
 }
 .item_name {
     position: absolute;
-    top: 0%;
+    top: -2%;
     left: 5%;
     font-size: 50px;
 }
 .description {
     position: absolute;
-    top: 45%;
+    top: 47%;
     left: 5%;
     font-size: 40x;
 }
