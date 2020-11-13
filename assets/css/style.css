@@ -24,8 +24,8 @@ nav li {
 #nav-links {
     position: absolute;
     top: 27%;
-    left: 48.1%;
-    transform: translate(-51.9%, -73%);
+    left: 48.5%;
+    transform: translate(-51.5%, -73%);
 }
 
 .high_br {
@@ -76,6 +76,7 @@ nav li {
 
 
 
+/*products page*/
 #ads {
     width: 300px;
     height: 1500px;
